@@ -67,11 +67,11 @@
 ### 4.3 Generar el archivo siteTab.txt
     
     Nos ubicamos en el directorio metadata
-    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/metadata \
-    $ cp siteTab.txt.original siteTab.txt \
+    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/metadata 
+    $ cp siteTab.txt.original siteTab.txt 
     
     Editamos el archivo y añadimos lo siguiente al final desde el 36
-    $ nano siteTab.txt \
+    $ nano siteTab.txt 
     
     36,JRO,jro-db.igp.gob.pe,madrigal,cgi-bin/madrigal,/madrigal/servlets,Marco Milla,Jicamarca Radio Observatory,Jicamarca,,,Lima,,Peru,511 317 2313,juan.espinoza@jro.igp.gob.pe,3.0
    
@@ -79,7 +79,7 @@
 
 5. Nuestro primer paso es instalar la libreria madrigal. Este es el comando que deberia funcionar despues de la instalacion. Nos referimos al siguiente comando:
 
-   $ import madrigal \
+   $ import madrigal 
    
    En nuestro entorno de desarrollo de manera satisfactoria, para esto se requiere instalar las siguientes librerias.
    
@@ -96,7 +96,7 @@
 
    Para verificar la correcta instalacion
    $ python\
-   $ import madrigal\
+   $ import madrigal
 
 6. Luego instalar de manera correcta Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto.
 
@@ -107,7 +107,7 @@
    $ git checkout isr\
    $ cd schainpy
    $ pip install -e ../
-   $ pip install click
+   $ pip install click/
    $ pip install zmq
 
 
