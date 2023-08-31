@@ -95,6 +95,10 @@
    
     Despues de añadir esta linea y guardar ya se puede proceder a instalar las librerias.
 
+### 4.4 Descomprimir experiments.
+    Descomprimir la carpeta experiments.tar.gz  dentro de la Carpeta MADROOT, este es el archivo que descargamos en el paso 4 Sample Experiments.
+
+
 5. Nuestro primer paso  en este punto para instalar la libreria madrigal. Activar el entorno virtual y ubicarse en el siguiente directorio:
 
    $ conda activate madrigal_v\
