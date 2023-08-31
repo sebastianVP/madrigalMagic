@@ -1,6 +1,6 @@
 #  MADRIGAL Y SIGNAL CHAIN
 ---
-## TUTORIAL PARA INSTALAR Y GENERAR ARCHIVOS EN FORMATO MADRICAL CON SIGNAL CHAIN
+## TUTORIAL PARA INSTALAR Y GENERAR ARCHIVOS EN FORMATO MADRIGAL CON SIGNAL CHAIN
 
 1. El objetivo es generar los atributos estandares de Madrigal, con el metodo de escritura desarrollado en Signal Chain.
    Para esto se requiere:
