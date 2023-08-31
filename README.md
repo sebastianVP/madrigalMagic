@@ -115,6 +115,14 @@
 
    $ pip install -r required_modules.txt
 
+   El paso de instalacion de Madrigal se realiza utilzando el siguiente comando:
+   
+   $ bash installMadrigal  &> install.log &\
+
+   Leemos el log de instalacion para ver si ocurrieron problemas:
+
+   $ cat install.log\$
+
    La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso. **Pero es mejor solo utilizar la secuencia de pasos anteriores** y saltar **al punto 6**.
    En nuestro entorno de desarrollo de manera satisfactoria, para esto se requiere instalar las siguientes librerias.
    ##### OPCIONAL #####   
