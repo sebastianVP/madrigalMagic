@@ -79,7 +79,7 @@
 
 5. Nuestro primer paso es instalar la libreria madrigal. Este es el comando que deberia funcionar despues de la instalacion. Nos referimos al siguiente comando:
    
-   $ python \
+   $ python 
    >> import madrigal 
    
    En nuestro entorno de desarrollo de manera satisfactoria, para esto se requiere instalar las siguientes librerias.
@@ -97,7 +97,7 @@
 
    Para verificar la correcta instalacion
 
-   $ python\
+   $ python
    >> import madrigal
 
 6. Luego instalar de manera correcta Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto.
