@@ -30,8 +30,9 @@
 
    Copiamos y descomprimimos en la carpeta indicada  el primer archivo con extension tar.gz, despues de descomprimir le cambiamos de nombre a la carpeta.
    La carpeta descomprimida originalmente se llama madrigal327 nosotros la llamamos MADROOT
-   $ cd /home/soporte/workspace/MADRIGAL_MAGIC/ \
-   $ mv madrigal327 MADROOT \   
+   
+   $ cd /home/soporte/workspace/MADRIGAL_MAGIC/\ 
+   $ mv madrigal327 MADROOT\   
    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT
    
    Antes de  la instalacion de librerias prerequisitos de python para utilizar correctamente Madrigal se requiere 3 pasos:
