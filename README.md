@@ -93,16 +93,26 @@
    
     Despues de añadir esta linea y guardar ya se puede proceder a instalar las librerias.
 
-5. Nuestro primer paso es instalar la libreria madrigal. Este es el comando que deberia funcionar despues de la instalacion. Nos referimos al siguiente comando:
-   Primero activa el entorno virtual y ubicarse en el siguiente directorio:
+5. Nuestro primer paso  en este punto para instalar la libreria madrigal. Activar el entorno virtual y ubicarse en el siguiente directorio:
 
    $ conda activate madrigal_v\
    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT
 
-   Ahora probamos:
+   Ahora probamos para verificar que no tenemos instalado madrigal, esto deberia arrojarnos :
    $ python 
-   >> import madrigal 
+   >> import madrigal\
+   ModuleNotFoundError: No module named 'madrigal'
+   >> exit()
    
+   Hemos verificado que no hay una instlacion previa con los comandos anteriores, la forma rapida de instalar los paquete pre-requisitos es utilizar el comando pip.
+   Pero debido a una actualizacion debemos modificar un archivo adicional. Dentro de la carpeta MADROOT
+   
+   $ nano required_modules.txt
+   Modificamos la linea 11 y escribimos en lugar de solo **bootstrap3** lo siguiente **django-bootstrap3**
+   Cerramos el archivo y el paso siguiente es utilizar el comando pip.
+   $ pip install -r required_modules.txt
+
+   La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso. **Pero es mejor solo utilizar la secuencia de pasos anteriores** y saltar **al punto 6**.
    En nuestro entorno de desarrollo de manera satisfactoria, para esto se requiere instalar las siguientes librerias.
    
    $ conda install h5py\
