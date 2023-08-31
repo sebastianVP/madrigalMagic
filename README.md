@@ -53,7 +53,7 @@
    
    Escribimos aqui el siguiente comando:
 
-   $ln -s /home/soporte/anaconda3/envs/madrigal_v/bin/python /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin/python 
+   $ln -s /home/soporte/anaconda3/envs/madrigal_v/bin/python python 
 
 ### 4.2 Generar el archivo madrigal.cfg
 
