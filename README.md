@@ -20,7 +20,7 @@
    $ mkdir MADRIGAL_MAGIC\
    Nota: Se puede crear la carpeta con el nombre que se desea, solo respetar luego el orden de los directorios.
 
-4. Descargamo dentro de la carpeta MADRIGAL_MAGIC  el siguiente archivo desde el link:
+4. Descargamos dentro de la carpeta MADRIGAL_MAGIC  el siguiente archivo desde el link:
    
    http://cedar.openmadrigal.org/madrigalDownload
    
