@@ -136,7 +136,8 @@
     >> import madrigal
 
 
-6. Luego instalar de manera correcta Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto.
+6. Luego debemos  instalar Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto. Este branch es el que actualmente permite a Signal Chain escribir datos en formato Madrigal.
+   (LAST UPDATE :D )
 
    $ git clone http://intranet.igp.gob.pe:8082/schain
    $ cd schain/ \
