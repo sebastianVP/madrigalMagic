@@ -123,6 +123,19 @@
    $ python
    >> import madrigal
 
+   Si todo es correcto , las ultimas lineas muestran el mensaje:
+
+  checking that generated files are newer than configure... done\
+  configure: creating ./config.status\
+  config.status: creating Makefile\
+  config.status: creating madf/geolib/Makefile\
+  config.status: creating madf/applications/Makefile\
+  config.status: creating madc/madrec/Makefile\
+  config.status: creating config.h\
+  config.status: executing depfiles commands\
+
+
+
 6. Luego instalar de manera correcta Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto.
 
    $ git clone http://intranet.igp.gob.pe:8082/schain
