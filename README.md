@@ -49,7 +49,7 @@
 
 ### 4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
 
-   $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin\
+   $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin
    
    Escribimos aqui el siguiente comando:
 
