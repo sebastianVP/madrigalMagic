@@ -78,6 +78,7 @@
     Despues de añadir esta linea y guardar ya se puede proceder a instalar las librerias.
 
 5. Nuestro primer paso es instalar la libreria madrigal. Este es el comando que deberia funcionar despues de la instalacion. Nos referimos al siguiente comando:
+   
    $ python \
    >> import madrigal 
    
@@ -95,6 +96,7 @@
    $ cat install.log\
 
    Para verificar la correcta instalacion
+
    $ python\
    >> import madrigal
 
