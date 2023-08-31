@@ -17,6 +17,7 @@
    Creamos la carpeta.\
    $ cd /home/soporte\
    $ mkdir workspace\
+   $ cd /home/soporte/workspace\
    $ mkdir MADRIGAL_MAGIC\
    Nota: Se puede crear la carpeta con el nombre que se desea, solo respetar luego el orden de los directorios.
 
