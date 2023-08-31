@@ -1,8 +1,12 @@
 #  MADRIGAL Y SIGNAL CHAIN
 ---
-## TUTORIAL PARA INSTALAR GENERAR ARCHIVOS EN FORMATO MADRICAL CON SIGNAL CHAIN
+## TUTORIAL PARA INSTALAR Y GENERAR ARCHIVOS EN FORMATO MADRICAL CON SIGNAL CHAIN
 
 1. El objetivo es generar los atributos estandares de Madrigal, con el metodo de escritura desarrollado en Signal Chain.
+   Para esto se requiere:
+
+   * Instalar Madrigal.
+   * Instalar Signal Chain branch ISR.
 
 2. Definimos para este objetivo una carpeta de trabajo y un entorno de desarrollo desde anaconda.
 
