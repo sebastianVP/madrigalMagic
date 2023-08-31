@@ -16,7 +16,9 @@
    $ conda create --name madrigal_v python=3.11\
 
    Para activarlo escribimos:
+
    $ conda activate madrigal_v \
+
    Creamos la carpeta.\
    $ cd /home/soporte\
    $ mkdir workspace\
