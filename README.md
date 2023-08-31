@@ -106,8 +106,8 @@
    $ git status\
    $ git checkout isr\
    $ cd schainpy
-   $ pip install -e ../
-   $ pip install click/
+   $ pip install -e ../ \
+   $ pip install click\
    $ pip install zmq
 
 
