@@ -15,8 +15,7 @@
    Con este comando nuestro entorno se llama **madrigal_v**   
    $ conda create --name madrigal_v python=3.11\
 
-   Para activarlo escribimos:
-
+   Para activarlo escribimos:\
    $ conda activate madrigal_v \
 
    Creamos la carpeta.\
