@@ -3,8 +3,11 @@
 ## TUTORIAL PARA INSTALAR GENERAR ARCHIVOS EN FORMATO MADRICAL CON SIGNAL CHAIN
 
 1. El objetivo es generar los atributos estandares de Madrigal, con el metodo de escritura desarrollado en Signal Chain.
+
 2. Definimos para este objetivo una carpeta de trabajo y un entorno de desarrollo desde anaconda.
+
 3. Usaremos la version de python=3.11.
+   
    $ conda create --name madrigal_v python=3.11\
    $ conda activate madrigal_v \
    Creamos la carpeta.\
@@ -14,7 +17,9 @@
    Nota: Se puede crear la carpeta con el nombre que se desea, solo respetar luego el orden de los directorios.
 
 4. Descargamo dentro de la carpeta MADRIGAL_MAGIC  el siguiente archivo desde el link:
+   
    http://cedar.openmadrigal.org/madrigalDownload
+   
    Aqui descargamos 2 archivos: Download Madrigal 3.2.7 Y Download Madrigal 3 Sample Experiments (needed when Madrigal first installed).
    Copiamos y descomprimimos en la carpeta indica el primer tar.gz, despues de descomprimir le cambiamos de nombre a la carpeta.
    La carpeta descomprimida originalmente se llama madrigal327 nosotros la llamamos MADROOT
@@ -26,6 +31,7 @@
 ### 4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
 
    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin\
+   
    Escribimos aqui el siguiente comando:\
 
    $ln -s /home/soporte/anaconda3/envs/madrigal_v/bin/python /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin/python 
@@ -68,7 +74,8 @@
    
     Despues de añadir esta linea y guardar ya se puede proceder a instalar las librerias.
 
-5. Nuestro primer paso es instalar la libreria madrigal. Es decir:
+5. Nuestro primer paso es instalar la libreria madrigal. Este es el comando que deberia funcionar despues de la instalacion. Nos referimos al siguiente comando:
+
    $ import madrigal \
    
    En nuestro entorno de desarrollo de manera satisfactoria, para esto se requiere instalar las siguientes librerias.
@@ -85,9 +92,11 @@
    $ cat install.log\
 
    Para verificar la correcta instalacion
-   $ python
-   $ import madrigal
-5. Luego instalar de manera correcta Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto.
+   $ python\
+   $ import madrigal\
+
+6. Luego instalar de manera correcta Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto.
+
    $ git clone http://intranet.igp.gob.pe:8082/schain
    $ cd schain/ \
    $ git init\
