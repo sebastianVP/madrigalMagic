@@ -104,28 +104,9 @@
    ModuleNotFoundError: No module named 'madrigal'
    >> exit()
    
-   Hemos verificado que no hay una instlacion previa con los comandos anteriores, la forma rapida de instalar los paquete pre-requisitos es utilizar el comando pip.
-   Pero debido a una actualizacion debemos modificar un archivo adicional. Dentro de la carpeta MADROOT
-   
-   $ nano required_modules.txt
-
-   Modificamos la linea 11 y escribimos en lugar de solo **bootstrap3** lo siguiente **django-bootstrap3**
-
-   Cerramos el archivo y el paso siguiente es utilizar el comando pip.
-
-   $ pip install -r required_modules.txt
-
-   El paso de instalacion de Madrigal se realiza utilzando el siguiente comando:
-   
-   $ bash installMadrigal  &> install.log &\
-
-   Leemos el log de instalacion para ver si ocurrieron problemas:
-
-   $ cat install.log\$
-
-   La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso. **Pero es mejor solo utilizar la secuencia de pasos anteriores** y saltar **al punto 6**.
-   En nuestro entorno de desarrollo de manera satisfactoria, para esto se requiere instalar las siguientes librerias.
-   ##### OPCIONAL #####   
+   Hemos verificado que no hay una instalacion previa con los comandos anteriores.
+   La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso en nuestro entorno de desarrollo de manera satisfactoria con el comando conda, para esto se requiere instalar las siguientes librerias.
+ 
    $ conda install h5py\
    $ conda install matplotlib\
    $ conda install netCDF4 \
