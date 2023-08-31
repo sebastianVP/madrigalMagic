@@ -11,6 +11,8 @@
 2. Definimos para este objetivo una carpeta de trabajo y un entorno de desarrollo desde anaconda.
 
 3. Usaremos la version de python=3.11.
+   
+   Debemos tener instalado previamente anaconda para continuar con la ejecucion de comandos.
 
    Con este comando nuestro entorno se llama **madrigal_v**   
    $ conda create --name madrigal_v python=3.11
