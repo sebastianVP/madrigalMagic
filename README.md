@@ -11,8 +11,9 @@
 2. Definimos para este objetivo una carpeta de trabajo y un entorno de desarrollo desde anaconda.
 
 3. Usaremos la version de python=3.11.
-   
+   Con este comando nuestro entorno se llama **madrigal_v**   
    $ conda create --name madrigal_v python=3.11\
+   Para activarlo escribimos:
    $ conda activate madrigal_v \
    Creamos la carpeta.\
    $ cd /home/soporte\
