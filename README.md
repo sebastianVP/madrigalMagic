@@ -112,6 +112,7 @@
    Modificamos la linea 11 y escribimos en lugar de solo **bootstrap3** lo siguiente **django-bootstrap3**
 
    Cerramos el archivo y el paso siguiente es utilizar el comando pip.
+
    $ pip install -r required_modules.txt
 
    La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso. **Pero es mejor solo utilizar la secuencia de pasos anteriores** y saltar **al punto 6**.
