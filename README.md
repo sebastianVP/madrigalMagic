@@ -20,7 +20,7 @@
    Para activarlo escribimos:\
    $ conda activate madrigal_v 
 
-   Creamos la carpeta.\
+   Creamos la carpeta workspace y dentro de esta carpeta creamos una carpeta llamada MADRIGAL_MAGIC.\
    $ cd /home/soporte\
    $ mkdir workspace\
    $ cd /home/soporte/workspace\
