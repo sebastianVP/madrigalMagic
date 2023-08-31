@@ -22,7 +22,7 @@
    
    Aqui descargamos 2 archivos: 
    * **Download Madrigal 3.2.7**
-   * ** Download Madrigal 3 Sample Experiments (needed when Madrigal first installed).**
+   * **Download Madrigal 3 Sample Experiments (needed when Madrigal first installed)**
 
    Copiamos y descomprimimos en la carpeta indica el primer tar.gz, despues de descomprimir le cambiamos de nombre a la carpeta.
    La carpeta descomprimida originalmente se llama madrigal327 nosotros la llamamos MADROOT
