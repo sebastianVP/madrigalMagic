@@ -23,42 +23,46 @@
    
    Antes de  la instalacion de librerias prerequisitos de python para utilizar correctamente Madrigal se requiere 3 pasos:\
 
-###4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
+### 4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
 
    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin\
    Escribimos aqui el siguiente comando:\
-   $ln -s /home/soporte/anaconda3/envs/madrigal_v/bin/python /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin/python \
 
-###4.2 Generar el archivo madrigal.cfg\
+   $ln -s /home/soporte/anaconda3/envs/madrigal_v/bin/python /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/bin/python 
 
-    Nos ubicamos en el directorio siguiente:\
-    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/\
-    Copiamos el contenido en un nuevo archivo llamado madrigal.cfg y hacemos los siguientes cambios\
-    $ cp madrigal.cfg.template  madrigal.cfg\
+### 4.2 Generar el archivo madrigal.cfg\
 
-    Modificamos el archivo \
-    $ nano madrigal.cfg\
-    Cambios:\
+    Nos ubicamos en el directorio siguiente: 
+    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/ 
+
+    Copiamos el contenido en un nuevo archivo llamado madrigal.cfg y hacemos los siguientes cambios 
+    $ cp madrigal.cfg.template  madrigal.cfg 
+
+    Modificamos el archivo  
+    $ nano madrigal.cfg 
+    Cambios: 
     
-    MADROOT = /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT\
-    MADSERVER = jro.igp.gob.pe\
-    MADSERVERROOT = MADROOT\
-    SITEID = 36\
-    HTMLSTYLE = <BODY BGCOLOR=#FFFFFF LINK=#008000 VLINK=#003366>\
-    INDEXHEAD = Welcome to the Madrigal Database <BR> at Jicamarca\
+    MADROOT = /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT
+    MADSERVER = jro.igp.gob.pe
+    MADSERVERROOT = MADROOT
+    SITEID = 36
+    HTMLSTYLE = <BODY BGCOLOR=#FFFFFF LINK=#008000 VLINK=#003366>
+    INDEXHEAD = Welcome to the Madrigal Database <BR> at Jicamarca
     ```
-    CONTACT = <A HREF="MAILTO:madrigal@jro.igp.gob.pe">Madrigal administator</A><BR>\
+    CONTACT = <A HREF="MAILTO:madrigal@jro.igp.gob.pe">Madrigal administator</A><BR>
     ```
-    MAILSERVER = localhost\
+    MAILSERVER = localhost
     ```
-    #PLOTBUTTONLABEL = Plots/Docs\
+    #PLOTBUTTONLABEL = Plots/Docs
     ```
-4.3 Generar el archivo siteTab.txt
+### 4.3 Generar el archivo siteTab.txt
+    
     Nos ubicamos en el directorio metadata
-    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/metadata
-    $ cp siteTab.txt.original siteTab.txt
+    $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/metadata \
+    $ cp siteTab.txt.original siteTab.txt \
+    
     Editamos el archivo y añadimos lo siguiente al final desde el 36
-    $ nano siteTab.txt
+    $ nano siteTab.txt \
     
     36,JRO,jro-db.igp.gob.pe,madrigal,cgi-bin/madrigal,/madrigal/servlets,Marco Milla,Jicamarca Radio Observatory,Jicamarca,,,Lima,,Peru,511 317 2313,juan.espinoza@jro.igp.gob.pe,3.0
    
