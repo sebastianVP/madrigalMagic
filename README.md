@@ -94,7 +94,12 @@
     Despues de añadir esta linea y guardar ya se puede proceder a instalar las librerias.
 
 5. Nuestro primer paso es instalar la libreria madrigal. Este es el comando que deberia funcionar despues de la instalacion. Nos referimos al siguiente comando:
-   
+   Primero activa el entorno virtual y ubicarse en el siguiente directorio:
+
+   $ conda activate madrigal_v\
+   $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT
+
+   Ahora probamos:
    $ python 
    >> import madrigal 
    
