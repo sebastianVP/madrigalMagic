@@ -40,8 +40,8 @@
    
    Antes de  la instalacion de librerias prerequisitos de python para utilizar correctamente Madrigal se requiere 3 pasos:
     * Vincular el comando python(4.1 Referencia)
-    * Modificar el archivo madrigal.cfg
-    * Modificar el archivo siteTab.txt
+    * Modificar el archivo madrigal.cfg(4.2)
+    * Modificar el archivo siteTab.txt(4.3)
 
 ### 4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
 
