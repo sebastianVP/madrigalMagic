@@ -155,7 +155,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
    # **ATENCION - PASO IMPORTANTE**
 
-   Ubicarse en el directorio MADROOT, para esto debemos tener el entorno activado, en caso no tenemos el entorno activado en la consola, el comando previo es:
+   Ubicarse en el directorio MADROOT, para esto debemos tener el entorno activado, en caso no tengamos el entorno activado en la consola, el comando previo es:
 
    $ conda activate madrigal_v\
    
