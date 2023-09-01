@@ -173,8 +173,11 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
    Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.Verificar las versiones en caso error.
 
+   Despues de la verificacion, instalamos con el siguiente comando **Madrigal**:
+
    $ bash installMadrigal  &> install.log &\
-   $ cat install.log\
+
+   $ cat install.log
 
    
    Si todo es correcto , las ultimas lineas muestran el mensaje:
