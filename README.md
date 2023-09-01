@@ -26,7 +26,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 **NOTA:** 
 1. Se recomienda tener instalado por defecto  gfortran-9, para verificar en consola escribir:
 
-$ gfortran --version
+   $ gfortran --version
 
 2. Mi PC es un S.O. ubuntu 20, aqui logre instalar Madrigal  con los siguientes paquetes.:
 
