@@ -6,7 +6,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
 * Instalar paquetes de C y fortran.
   
-  $ sudo apt-get install gfortran\
+  $ sudo apt-get install gfortran-9\
   $ sudo apt-get install build-essentail\
   $ sudo apt-get install gcc
 
@@ -23,7 +23,9 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
  
   $ dpkg -L autoconf\
 
-  **NOTA:** Se recomienda tener instalado gfortran-9
+  **NOTA:** Se recomienda tener instalado por defecto  gfortran-9, para verificar en consola escribir:
+
+  $ gfortran --version
 
 # INSTALACION
 
