@@ -21,8 +21,9 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
   
   Verificar con el comando
  
-  $ dpkg -L autoconf
+  $ dpkg -L autoconf\
 
+  **NOTA:** Se recomienda tener instalado gfortran-9
 
 # INSTALACION
 
@@ -135,6 +136,10 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    >> exit()
    
    Hemos verificado que no hay una instalacion previa con los comandos anteriores.
+
+
+
+
    La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso en nuestro entorno de desarrollo de manera satisfactoria con el comando conda, para esto se requiere instalar las siguientes librerias.
  
    $ conda install h5py\
@@ -145,6 +150,25 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    $ conda install django-bootstrap3\
    $ pip install aacgmv2\
    $ pip install filelock\
+
+   # **ATENCION - PASO IMPORTANTE**
+
+   Ubicarse en el directorio MADROOT, para esto debemos tener el entorno activado, en caso no tenemos el entorno activado en la consola, el comando previo es:
+
+   $ conda activate madrigal_v\
+   
+   $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT
+    
+   Ejecutar el comando de verificacion de paquetes python instalados.
+
+   $ python testRequirements.py
+  
+   Debemos leer con atencion que paquete esta faltando o si aparece el mensaje de que todos los modulos han sido correctamente instalados. Si y solo si aparece el mensaje siguiente podemos proceder con los comandos siguientes:
+   **All required python modules found.**
+   Si obtenemos el mensaje en negrita podemos proceder con la instalacion.
+
+   Al ejecutar estos comandos se generar los archivos c y fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9.
+
    $ bash installMadrigal  &> install.log &\
    $ cat install.log\
 
