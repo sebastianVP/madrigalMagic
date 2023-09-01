@@ -2,7 +2,7 @@
 ---
 ## TUTORIAL PARA INSTALAR Y GENERAR ARCHIVOS EN FORMATO MADRIGAL CON SIGNAL CHAIN
 
-RECOMENDACIONES PREVIAS:
+RECOMENDACIONES PREVIAS de COMPILADORES:
 
 * Instalar paquetes de C y fortran.
   
@@ -18,8 +18,13 @@ RECOMENDACIONES PREVIAS:
   
   $ sudo apt-get install autotools-dev\
   $ sudo apt-get install autoconf
+  
+  Verificar con el comando
+ 
+  $ dpkg -L autoconf
 
 
+# INSTALACION
 
 1. El objetivo es generar los atributos estandares de Madrigal, con el metodo de escritura desarrollado en Signal Chain.
    Para esto se requiere:
