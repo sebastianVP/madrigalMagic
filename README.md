@@ -213,7 +213,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 6. Luego debemos  instalar Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto. Este branch es el que actualmente permite a Signal Chain escribir datos en formato Madrigal.
    (LAST UPDATE :D )
 
-   $ git clone http://intranet.igp.gob.pe:8082/schain
+   $ git clone http://intranet.igp.gob.pe:8082/schain\
    $ cd schain/ \
    $ git init\
    $ git status\
