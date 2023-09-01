@@ -6,16 +6,17 @@ RECOMENDACIONES PREVIAS:
 
 * Instalar paquetes de C y fortran.
   
-  $ sudo apt-get install gfortran
-  $ sudo apt-get install build-essentail
+  $ sudo apt-get install gfortran\
+  $ sudo apt-get install build-essentail\
   $ sudo apt-get install gcc
 
   Verificar con el comando
+
   $ dpkg -L gcc
 
 * Instalar autotools
   
-  $ sudo apt-get install autotools-dev
+  $ sudo apt-get install autotools-dev\
   $ sudo apt-get install autoconf
 
 
