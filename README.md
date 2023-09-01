@@ -166,10 +166,12 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    $ python testRequirements.py
   
    Debemos leer con atencion que paquete esta faltando o si aparece el mensaje de que todos los modulos han sido correctamente instalados. Si y solo si aparece el mensaje siguiente podemos proceder con los comandos siguientes:
+   
    **All required python modules found.**
+   
    Si obtenemos el mensaje en negrita podemos proceder con la instalacion.
 
-   Al ejecutar estos comandos se generar los archivos c y fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9.
+   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.Verificar las versiones en caso error.
 
    $ bash installMadrigal  &> install.log &\
    $ cat install.log\
