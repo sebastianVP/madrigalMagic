@@ -229,9 +229,13 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
 ### ANEXO FINAL ###
 
-Un posible de error en la instalacion nos puede ocasionar el error de visualiar 2 veces el directorio de instalacion MADROOT en  los ejecutables con extension .f que empiezan con la letra i y que estan ubicados en el directorio.
+Un posible de error en la instalacion nos puede ocasionar el error de visualiar 2 veces el directorio de instalacion MADROOT en  los ejecutables con extension .f que empiezan con la letra i y que estan ubicados en el directorio: 
 
-/home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/source/madf/geolib , osea en ../source/madf/geolib, cuando ocurre esto lo mas recomendable es borrar todos los archivos que empiezan con la letra i dentro de esta  carpeta y desde un directorio con un archivo de instalacion nuevo, descomprimirlo desde la misma ruta copiar los archivos de las mismas caracteristicas es decir que empiezan con letra i y tiene extension .f.
+/home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/source/madf/geolib 
+
+Es decir en la carpeta interna:  ../source/madf/geolib
+
+Cuando ocurre esto lo mas recomendable es borrar todos los archivos que empiezan con la letra i dentro de esta  carpeta y desde un directorio con un archivo de instalacion nuevo, descomprimirlo desde la misma ruta copiar los archivos de las mismas caracteristicas es decir que empiezan con letra i y tiene extension .f.
 
 Los comandos serian los siguientes :
 
