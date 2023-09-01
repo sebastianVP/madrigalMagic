@@ -165,7 +165,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
    $ python testRequirements.py
   
-   Debemos leer con atencion que paquete esta faltando o si aparece el mensaje de que todos los modulos han sido correctamente instalados. Si y solo si aparece el mensaje siguiente podemos proceder con los comandos siguientes:
+   Debemos leer con atencion que paquete esta faltando o si aparece el mensaje de que todos los modulos han sido correctamente instalados. Si y solo si aparece el  siguiente mensaje  podemos continuar con la instalacion.
    
    **All required python modules found.**
    
