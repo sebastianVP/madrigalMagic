@@ -184,7 +184,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    
    Si obtenemos el mensaje en negrita podemos proceder con la instalacion.
 
-   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.Verificar las versiones en caso error. La explicacion a detalle se mostrara en el  ANEXO FINAL.
+   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.Verificar las versiones en caso error. La explicacion a detalle se mostrara en el  **ANEXO FINAL**.
 
    Despues de la verificacion, instalamos con el siguiente comando **Madrigal**:
 
@@ -233,7 +233,7 @@ Un posible de error en la instalacion nos puede ocasionar el error de visualiar 
 
 /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/source/madf/geolib , osea en ../source/madf/geolib, cuando ocurre esto lo mas recomendable es borrar todos los archivos que empiezan con la letra i dentro de esta  carpeta y desde un directorio con un archivo de instalacion nuevo, descomprimirlo desde la misma ruta copiar los archivos de las mismas caracteristicas es decir que empiezan con letra i y tiene extension .f.
 
-En comando esto seria algo asi:
+Los comandos serian los siguientes :
 
 $ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/source/madf/geolib
 $ rm -r i*
