@@ -27,6 +27,10 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
   $ gfortran --version
 
+#### LINK ####
+  Este link puede servr de tutorial solo en caso no se tengan los compiladores [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial/)
+ 
+
 # INSTALACION
 
 1. El objetivo es generar los atributos estandares de Madrigal, con el metodo de escritura desarrollado en Signal Chain.
