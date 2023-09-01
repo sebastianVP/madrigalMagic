@@ -175,7 +175,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
    Despues de la verificacion, instalamos con el siguiente comando **Madrigal**:
 
-   $ bash installMadrigal  &> install.log &\
+   $ bash installMadrigal  &> install.log &
 
    $ cat install.log
 
