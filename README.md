@@ -28,12 +28,11 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
   $ gfortran --version
 
-  2. Mi PC es un S.O. ubuntu 20, aqui logre instalar Madrigal  con los siguientes paquetes.\
-
-	* automake 1.16.1
-        * autoconf 2.69
-        * gfortran 9.4.0
-        * libtoolize 2.4.6
+  2. Mi PC es un S.O. ubuntu 20, aqui logre instalar Madrigal  con los siguientes paquetes.:
+	*  automake 1.16.1
+        *  autoconf 2.69
+        *  gfortran 9.4.0
+        *  libtoolize 2.4.6
 
 #### LINK ####
   Este link puede servir de tutorial solo en caso no se tengan los compiladores [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial/)
