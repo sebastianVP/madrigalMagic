@@ -184,9 +184,11 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    
    Si obtenemos el mensaje en negrita podemos proceder con la instalacion.
 
-   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.Verificar las versiones en caso error.
+   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.Verificar las versiones en caso error. La explicacion a detalle se mostrara en el  ANEXO FINAL.
 
    Despues de la verificacion, instalamos con el siguiente comando **Madrigal**:
+
+   # **PASO DE INSTALACION DE COMANDO**
 
    $ bash installMadrigal  &> install.log &
 
@@ -223,5 +225,28 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    $ pip install -e ../ \
    $ pip install click\
    $ pip install zmq
+
+
+### ANEXO FINAL ###
+
+Un posible de error en la instalacion nos puede ocasionar el error de visualiar 2 veces el directorio de instalacion MADROOT en  los ejecutables con extension .f que empiezan con la letra i y que estan ubicados en el directorio.
+
+/home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/source/madf/geolib , osea en ../source/madf/geolib, cuando ocurre esto lo mas recomendable es borrar todos los archivos que empiezan con la letra i dentro de esta  carpeta y desde un directorio con un archivo de instalacion nuevo, descomprimirlo desde la misma ruta copiar los archivos de las mismas caracteristicas es decir que empiezan con letra i y tiene extension .f.
+
+En comando esto seria algo asi:
+
+$ cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT/source/madf/geolib
+$ rm -r i*
+
+y Desde una carpeta con el archivo madrigal327 descomprimida copiar los archivos y reponerlos en el directorio anterior. En mi caso esta ubicado y descomprimido en Downloads.
+
+$  /home/soporte/Downloads/madrigal327/source/madf/geolib
+$ cp i*  /home/soporte/Downloads/madrigal327/source/madf/geolib
+
+y ubicarse nuevamente en el directorio
+
+$  cd /home/soporte/workspace/MADRIGAL_MAGIC/MADROOT
+
+y volver al **PASO DE INSTALACION DE COMANDO**  MADRIGAL
 
 
