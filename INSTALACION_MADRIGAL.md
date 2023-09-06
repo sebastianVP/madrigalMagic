@@ -107,14 +107,10 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
  
    Directorio de archivos fortran.
 
-   $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madf/geolib
-   
-   Editamos el archivo isrim.f
-    
-   $ nano isrim.f
-   
-   Modificamos la linea 184 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:
- 
+   $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madf/geolib\   
+   Editamos el archivo isrim.f\  
+   $ nano isrim.f\
+   Modificamos la linea 184 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
    MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'
 
    $ nano irifun.f
