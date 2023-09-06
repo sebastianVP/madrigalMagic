@@ -30,7 +30,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    *  libtoolize 2.4.6
 
 #### LINK ####
-     Este link puede servir de tutorial solo en caso no se tengan los compiladores [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial/)
+     Este link puede servir de tutorial solo en caso no se tengan los compiladores [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial)
  
 
 # INSTALACION
@@ -62,7 +62,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
 4. Descargamos dentro de la carpeta DIR_MADRIGAL el siguiente archivo desde el link:
    
-[Madrigal_Modificado](https://drive.google.com/file/d/1Kjt5LUQBGwLXx3h7eH7fKRX8fW9pfuz6/view?usp=drive_link)
+   [Madrigal_Modificado](https://drive.google.com/file/d/1Kjt5LUQBGwLXx3h7eH7fKRX8fW9pfuz6/view?usp=drive_link)
 
    El archivo se llama **MADROOT.tar.xz**.
 
