@@ -72,6 +72,10 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    Hemos modificado los archivos de configuracion para que la instalacion sea mas practica, pero debemos todavia modificar algunos directorios.
 
    Copiamos y descomprimimos en la carpeta indicada /home/operaciones/DIR_MADRIGAL el archivo con extension tar.xz, el directorio se llama MADROOT
+
+   $ cd /home/operaciones/DIR_MADRIGAL
+
+   $ tar -zxf MADROOT.tar.xz
    
    $ cd /home/operaciones/DIR_MADRIGAL/MADRROOT 
 
