@@ -145,7 +145,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    
    Hemos verificado que no hay una instalacion previa con los comandos anteriores.
 
-   La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso en nuestro entorno de desarrollo de manera satisfactoria con el comando conda, para esto se requiere instalar las siguientes librerias.
+   La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso en nuestro entorno de desarrollo de manera satisfactoria con el comando pip, para esto se requiere instalar las siguientes librerias.
  
      $ python testRequirements.py
  
