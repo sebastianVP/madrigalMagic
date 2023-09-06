@@ -117,23 +117,23 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 
     Editamos el archivo isrim.f
 
-    $ nano isrim.f\
-    Modificamos la linea 184 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
+    $ nano isrim.f
+    Modificamos la linea 184 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:
     MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'
 
-    $ nano irifun.f\
-    Modificamos la linea 5930 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
+    $ nano irifun.f
+    Modificamos la linea 5930 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:
     MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'  
 
-    $ nano irisub.f\
-    Modificamos la linea 309 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
+    $ nano irisub.f
+    Modificamos la linea 309 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:
     MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'
 
     Directorio de archivos .h
  
-    $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madc/include\
-    $nano cedar.h\
-    Modificamos la linea 11 , aqui escribimos nuestra ruta de directorio de instalacion:\
+    $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madc/include
+    $nano cedar.h
+    Modificamos la linea 11 , aqui escribimos nuestra ruta de directorio de instalacion:
     #define __MAD_ROOT__ "/home/operaciones/DIR_MADRIGAL/MADROOT"
 
 5. Para instalar la libreria madrigal debemos activar el entorno virtual y ubicarse en el siguiente directorio:
