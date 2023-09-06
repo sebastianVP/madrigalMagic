@@ -132,7 +132,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
 
 
-5. Nuestro primer paso  en este punto para instalar la libreria madrigal. Activar el entorno virtual y ubicarse en el siguiente directorio:
+5. Para instalar la libreria madrigal debemos activar el entorno virtual y ubicarse en el siguiente directorio:
 
    $ conda activate mad_test\
    $ cd /home/operaciones/DIR_MADRIGAL/MADROOT
