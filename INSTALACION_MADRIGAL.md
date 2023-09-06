@@ -146,7 +146,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    $ conda activate mad_test\
    $ cd /home/operaciones/DIR_MADRIGAL/MADROOT
 
-   Ahora probamos para verificar que no tenemos instalado madrigal, esto deberia arrojarnos :
+   Ahora probamos el siguiente comando para verificar que no tenemos instalado madrigal, esto deberia arrojarnos :
    $ python 
    >> import madrigal\
    ModuleNotFoundError: No module named 'madrigal'
