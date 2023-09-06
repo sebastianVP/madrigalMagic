@@ -156,17 +156,16 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
    La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso en nuestro entorno de desarrollo de manera satisfactoria con el comando conda, para esto se requiere instalar las siguientes librerias.
  
-    $ python testRequirements.py 
-    $ pip instal numpy==1.19.5
-    $ pip instal h5py==2.10.0
-    $ pip install matplotlib==3.3.4
-    $ pip install netCDF4==1.5.8 
-    $ pip install scipy==1.5.3 
-    $ pip install django==3.2.10
-    $ pip install django-bootstrap3
-    $ pip install aacgmv2==2.6.2
-    $ python testRequirements.py 
-    bash installMadrigal 
+    $ python testRequirements.py\ 
+    $ pip instal numpy==1.19.5\
+    $ pip instal h5py==2.10.0\
+    $ pip install matplotlib==3.3.4\
+    $ pip install netCDF4==1.5.8\ 
+    $ pip install scipy==1.5.3\ 
+    $ pip install django==3.2.10\
+    $ pip install django-bootstrap3\
+    $ pip install aacgmv2==2.6.2\
+    $ python testRequirements.py\ 
 
    # **ATENCION - PASO IMPORTANTE**
 
@@ -186,7 +185,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    
    Si obtenemos el mensaje en negrita podemos proceder con la instalacion.
 
-   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.Verificar las versiones en caso error. La explicacion a detalle se mostrara en el  **ANEXO FINAL**.
+   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.
 
    Despues de la verificacion, instalamos con el siguiente comando **Madrigal**:
 
