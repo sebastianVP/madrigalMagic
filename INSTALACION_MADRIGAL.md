@@ -53,7 +53,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    Para activarlo escribimos:\
    $ conda activate mad_test
 
-   Creamos la carpeta workspace y dentro de esta carpeta creamos una carpeta llamada DIR_MADRIGAL.\
+   Creamos la carpeta llamada DIR_MADRIGAL.\
    $ cd /home/operaciones\
    $ mkdir DIR_MADRIGAL\
    $ cd /home/operaciones/DIR_MADRIGAL\
