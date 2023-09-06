@@ -208,7 +208,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    (LAST UPDATE :D )
 
 
-   $ cd /home/operaciones/DIR_MADRIGAL
+   $ cd /home/operaciones/DIR_MADRIGAL\
    $ git clone http://intranet.igp.gob.pe:8082/schain
 
    $ cd schain\
