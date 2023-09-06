@@ -147,16 +147,16 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 
    La opcion mostrada a continuacion seria una forma de instalar los pre-requisitos paso a paso en nuestro entorno de desarrollo de manera satisfactoria con el comando conda, para esto se requiere instalar las siguientes librerias.
  
-    $ python testRequirements.py \ 
-    $ pip instal numpy==1.19.5\
-    $ pip instal h5py==2.10.0\
-    $ pip install matplotlib==3.3.4\
-    $ pip install netCDF4==1.5.8 \ 
-    $ pip install scipy==1.5.3\ 
-    $ pip install django==3.2.10  \
-    $ pip install django-bootstrap3 \
-    $ pip install aacgmv2==2.6.2 \
-    $ python testRequirements.py 
+     $ python testRequirements.py\ 
+     $ pip instal numpy==1.19.5\
+     $ pip instal h5py==2.10.0\
+     $ pip install matplotlib==3.3.4 \
+     $ pip install netCDF4==1.5.8 \ 
+     $ pip install scipy==1.5.3 \ 
+     $ pip install django==3.2.10 \
+     $ pip install django-bootstrap3 \
+     $ pip install aacgmv2==2.6.2 \
+     $ python testRequirements.py 
 
    # **ATENCION - PASO IMPORTANTE**
 
