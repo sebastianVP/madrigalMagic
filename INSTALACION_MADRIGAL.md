@@ -86,11 +86,11 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
 ### 4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
 
-   $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/bin
+    $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/bin
    
-   Escribimos aqui el siguiente comando:
+    Escribimos aqui el siguiente comando:
 
-   $ ln -s /home/operaciones/miniconda3/envs/mad_test/bin/python python 
+    $ ln -s /home/operaciones/miniconda3/envs/mad_test/bin/python python 
 
 ### 4.2 Modificar  el archivo madrigal.cfg
 
@@ -105,32 +105,30 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
         
 ### 4.3 Modificar los archivos con extension .f y h. 
  
-   Directorio de archivos fortran.
+    Directorio de archivos fortran.
 
-   $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madf/geolib
+    $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madf/geolib
 
-   Editamos el archivo isrim.f
+    Editamos el archivo isrim.f
 
-   $ nano isrim.f\
-   Modificamos la linea 184 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
-   MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'
-
-   $ nano irifun.f\
-   Modificamos la linea 5930 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
-   MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'  
-
-   $ nano irisub.f\
-   Modificamos la linea 309 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
+    $ nano isrim.f\
+    Modificamos la linea 184 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
     MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'
 
-   Directorio de archivos .h
+    $ nano irifun.f\
+    Modificamos la linea 5930 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
+    MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'  
+
+    $ nano irisub.f\
+    Modificamos la linea 309 que inicia con MADDIR..., aqui escribimos nuestra ruta de directorio de instalacion:\
+    MADDIR = '/home/operaciones/DIR_MADRIGAL/MADROOT'
+
+    Directorio de archivos .h
  
-   $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madc/include\
-   $nano cedar.h\
-   Modificamos la linea 11 , aqui escribimos nuestra ruta de directorio de instalacion:\
-   #define __MAD_ROOT__ "/home/operaciones/DIR_MADRIGAL/MADROOT"
-
-
+    $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/source/madc/include\
+    $nano cedar.h\
+    Modificamos la linea 11 , aqui escribimos nuestra ruta de directorio de instalacion:\
+    #define __MAD_ROOT__ "/home/operaciones/DIR_MADRIGAL/MADROOT"
 
 5. Para instalar la libreria madrigal debemos activar el entorno virtual y ubicarse en el siguiente directorio:
 
