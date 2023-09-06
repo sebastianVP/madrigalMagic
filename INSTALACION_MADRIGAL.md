@@ -23,14 +23,14 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
 2. La PC de operaciones es un S.O. ubuntu 22.04, aqui logre instalar Madrigal  con los siguientes paquetes.:
 
-
-*  automake 1.16.1
-*  autoconf 2.69
-*  gfortran 9.4.0
-*  libtoolize 2.4.6
+ 
+   *  automake 1.16.1
+   *  autoconf 2.69
+   *  gfortran 9.4.0
+   *  libtoolize 2.4.6
 
 #### LINK ####
-  Este link puede servir de tutorial solo en caso no se tengan los compiladores [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial/)
+     Este link puede servir de tutorial solo en caso no se tengan los compiladores [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial/)
  
 
 # INSTALACION
@@ -69,7 +69,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    Aqui se incluyen 2 directorios: 
    * **Download Madrigal 3.2.7**
    * **Download Madrigal 3 Sample Experiments (needed when Madrigal first installed)**
-   Hemos modificado los archivos de configuracion para que la instalacion sea mas practica, pero debemos todavia modificar algunos directorios.
+   Hemos modificado los archivos de configuracion para que la instalacion sea mas practica, pero debemos todavia modificar algunos archivos.
 
    Copiamos y descomprimimos en la carpeta indicada /home/operaciones/DIR_MADRIGAL el archivo con extension tar.xz, el directorio se llama MADROOT
 
