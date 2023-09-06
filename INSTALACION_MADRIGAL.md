@@ -102,9 +102,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
     Cambios en la linea 9:
     
     MADROOT = /home/operaciones/DIR_MADRIGAL/MADROOT
-    
-    Definimos donde esa nuestra instalacion de MADRIGAL.
-    ```
+        
 ### 4.3 Modificar los archivos con extension .f y h. 
    Directorio de archivos fortran.
 
