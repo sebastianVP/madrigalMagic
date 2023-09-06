@@ -30,9 +30,9 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
    *  libtoolize 2.4.6
 
 #### LINK ####
-    Este link puede servir de tutorial solo en caso no se tengan los compiladores 
+Este link puede servir de tutorial solo en caso no se tengan los compiladores 
 
-    [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial)
+[tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial)
  
 
 # INSTALACION
