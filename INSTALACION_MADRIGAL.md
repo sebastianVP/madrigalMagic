@@ -62,7 +62,8 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
 4. Descargamos dentro de la carpeta DIR_MADRIGAL el siguiente archivo desde el link:
    
-   https://drive.google.com/file/d/1Kjt5LUQBGwLXx3h7eH7fKRX8fW9pfuz6/view?usp=drive_link
+   [Madrigal_Modificado](https://drive.google.com/file/d/1Kjt5LUQBGwLXx3h7eH7fKRX8fW9pfuz6/view?usp=drive_link)
+
    El archivo se llama **MADROOT.tar.xz**.
 
    Aqui se incluyen 2 directorios: 
