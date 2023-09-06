@@ -33,7 +33,7 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 Este link puede servir de tutorial solo en caso no se tengan los compiladores 
 
 [tutorial](https://techglimpse.com/install-update-autoconf-linux-tutorial)
- 
+[gfortran2versiones](https://askubuntu.com/questions/950686/how-can-i-use-two-instances-of-gfortran) 
 
 # INSTALACION
 
