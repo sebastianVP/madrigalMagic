@@ -89,6 +89,10 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 ### 4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
 
     $ cd /home/operaciones/DIR_MADRIGAL/MADROOT/bin
+
+    Borrar primero el archivo python dentro de la carpeta bin.
+    
+    $ rm -r python 
    
     Escribimos aqui el siguiente comando:
 
@@ -149,8 +153,8 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
  
      $ python testRequirements.py
  
-     $ pip instal numpy==1.19.5\
-     $ pip instal h5py==2.10.0\
+     $ pip install numpy==1.19.5\
+     $ pip install h5py==2.10.0\
      $ pip install matplotlib==3.3.4\
      $ pip install netCDF4==1.5.8
   
