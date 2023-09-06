@@ -158,50 +158,50 @@ RECOMENDACIONES PREVIAS de COMPILADORES:
 
    # **ATENCION - PASO IMPORTANTE**
 
-   Ubicarse en el directorio MADROOT, para esto debemos tener el entorno activado, en caso no tengamos el entorno activado en la consola, el comando previo es:
+       Ubicarse en el directorio MADROOT, para esto debemos tener el entorno activado, en caso no tengamos el entorno activado en la consola, el comando previo es:
 
-   $ conda activate mad_test
+       $ conda activate mad_test
    
-   $ cd /home/operaciones/DIR_MADRIGAL/MADROOT
+       $ cd /home/operaciones/DIR_MADRIGAL/MADROOT
     
-   Ejecutar el comando de verificacion de paquetes python instalados.
+       Ejecutar el comando de verificacion de paquetes python instalados.
 
-   $ python testRequirements.py
+       $ python testRequirements.py
   
-   Debemos leer con atencion que paquete esta faltando o si aparece el mensaje de que todos los modulos han sido correctamente instalados. Si y solo si aparece el  siguiente mensaje  podemos continuar con la instalacion.
+       Debemos leer con atencion que paquete esta faltando o si aparece el mensaje de que todos los modulos han sido correctamente instalados. Si y solo si aparece el  siguiente mensaje  podemos continuar con la instalacion.
    
-   **All required python modules found.**
+       **All required python modules found.**
    
-   Si obtenemos el mensaje en negrita podemos proceder con la instalacion.
+       Si obtenemos el mensaje en negrita podemos proceder con la instalacion.
 
-   Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.
+       Al ejecutar estos comandos se generar los archivos c, fortran  y sus ejecutables. Existe un posible error adicional que se pueda generar en caso falle la generacion  de estos archivos y esta relacionado a la version de fortran, por ello se recomienda utilizar fotran-9, autoconf-2.69.
 
-   Despues de la verificacion, instalamos con el siguiente comando **Madrigal**:
+       Despues de la verificacion, instalamos con el siguiente comando **Madrigal**:
 
    # **PASO DE INSTALACION DE COMANDO**
 
-   $ bash installMadrigal  &> install.log &
-   Para visualizar toda la instalacion en consola  se recomienda solo
+       $ bash installMadrigal  &> install.log &
+       Para visualizar toda la instalacion en consola  se recomienda solo
 
-   $ bash installMadrigal
+       $ bash installMadrigal
 
-   $ cat install.log
+       $ cat install.log
 
    
-    Si todo es correcto , las ultimas lineas muestran el mensaje:
+       Si todo es correcto , las ultimas lineas muestran el mensaje:
 
-    /home/operaciones/DIR_MADRIGAL/MADROOT/bin/python /home/operaciones/DIR_MADRIGAL/MADROOT/source/madpy/scripts/bin/testWebConfig.py
+       /home/operaciones/DIR_MADRIGAL/MADROOT/bin/python /home/operaciones/DIR_MADRIGAL/MADROOT/source/madpy/scripts/bin/testWebConfig.py
 
-    and verify you get a message that indicates success.
+       and verify you get a message that indicates success.
 
 
-    Elapsed time: 0:13:17\
-    Madrigal installation complete
+       Elapsed time: 0:13:17\
+       Madrigal installation complete
   
-   Para verificar la correcta instalacion
+       Para verificar la correcta instalacion
 
-    $ python
-    >> import madrigal
+       $ python
+       >> import madrigal
 
 
 6. Luego debemos  instalar Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto. Este branch es el que actualmente permite a Signal Chain escribir datos en formato Madrigal.
