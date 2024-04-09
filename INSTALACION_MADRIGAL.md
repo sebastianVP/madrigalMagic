@@ -247,7 +247,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 
 
 6. Luego debemos  instalar Signal Chain, aqui debemos utilizar el branch de ISR desarrollado por Roberto. Este branch es el que actualmente permite a Signal Chain escribir datos en formato Madrigal.
-   (LAST UPDATE :D )
+   (LAST UPDATE :D ). Ya se puede utilizar la version master.
 
 
    $ cd /home/operaciones/DIR_MADRIGAL\
@@ -262,7 +262,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    $ pip install click\
    $ pip install zmq
 
-   Nota: 
+   ## Nota: 
    Aqui ya podemos instalar directamente la **version master**, los comandos serian los siguientes:
 
    $ cd /home/operaciones/DIR_MADRIGAL\
