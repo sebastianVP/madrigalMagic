@@ -188,12 +188,13 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
      $ pip install aacgmv2==2.6.2 \
      $ python testRequirements.py 
    
-   Nota:
+   **Nota:**
    
    La instalacion puede realizarse sin problema con el python3.10 o una version mas actualizada indicando solo el nombre del paquete sin especificar su version. Ejemplo:
-    $ pip install netCDF4
-    $ pip install django\
-    $ pip install django-bootstrap3\
+
+     $ pip install netCDF4\
+     $ pip install django\
+     $ pip install django-bootstrap3\
 
    # **ATENCION - PASO IMPORTANTE**
 
