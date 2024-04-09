@@ -48,7 +48,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 
 2. Definimos para este objetivo una carpeta de trabajo(Carpeta DIR_MADRIGAL)y un entorno de desarrollo desde anaconda.
 
-3. Usaremos la version de python=3.6.
+3. Usaremos la version de python=3.6., tambien podemos usar versiones mas recientes de python como la version python=3.10
    
    Debemos tener instalado previamente anaconda o miniconda3  para continuar con la ejecucion de comandos.
 
@@ -63,9 +63,9 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    $ mkdir DIR_MADRIGAL\
    $ cd /home/operaciones/DIR_MADRIGAL\
 
-   Nota: Se puede crear la carpeta con el nombre que se desea, solo respetar luego el orden de los directorios.
+   **Nota:** Se puede crear la carpeta con el nombre que se desea, solo respetar luego el orden de los directorios.
 
-   Update: Ya podemos utilizar una version mas moderna de python, se ha realizado una instalacion con **python 3.10.14** de manera exitosa
+   **Update:** Ya podemos utilizar una version mas moderna de python, se ha realizado una instalacion con **python 3.10.14** de manera exitosa
    El entorno utilizado se genero el 08 de abril
    $ conda create --name test_master_apr8
 
