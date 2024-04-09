@@ -252,5 +252,15 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    $ pip install click\
    $ pip install zmq
 
+   Nota: 
+   Aqui ya podemos instalar directamente la **version master**, los comandos serian los siguientes:
+
+   $ cd /home/operaciones/DIR_MADRIGAL\
+   $ git clone http://intranet.igp.gob.pe:8082/schain
+   $ cd schain\
+   $ git init\
+   $ git status\
+   $ cd schainpy
+   $ pip install -e ../
 
 
