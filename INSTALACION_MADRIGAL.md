@@ -195,6 +195,8 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
      $ pip install netCDF4\
      $ pip install django\
      $ pip install django-bootstrap3\
+     $ python testRequirements.py
+     
 
    # **ATENCION - PASO IMPORTANTE**
 
