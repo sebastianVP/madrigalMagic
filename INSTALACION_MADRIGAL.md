@@ -41,9 +41,12 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    Para esto se requiere:
 
    * Instalar Madrigal.
-   * Instalar Signal Chain branch ISR.
+   * Instalar Signal Chain branch ISR o master(Ya se encuetra el repositorio actualizado).
 
-2. Definimos para este objetivo una carpeta de trabajo y un entorno de desarrollo desde anaconda.
+   NOTA: Con las actualizaciones en el respositorio de **Signal Chain** ya podemos instalar MADRIGAL con  **la version master**. Este repositorio master ya contiene la integracion de ISR, Métodos del experimento de JULIA, Spectral Fitting e EWDriftsEstmation.
+   [LINK REPOSITORIO  SCHAIN](http://intranet.igp.gob.pe:8082/schain)
+
+2. Definimos para este objetivo una carpeta de trabajo(Carpeta DIR_MADRIGAL)y un entorno de desarrollo desde anaconda.
 
 3. Usaremos la version de python=3.6.
    
@@ -61,6 +64,10 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    $ cd /home/operaciones/DIR_MADRIGAL\
 
    Nota: Se puede crear la carpeta con el nombre que se desea, solo respetar luego el orden de los directorios.
+
+   Update: Ya podemos utilizar una version mas moderna de python, se ha realizado una instalacion con **python 3.10.14** de manera exitosa
+   El entorno utilizado se genero el 08 de abril
+   $ conda create --name test_master_apr8
 
 4. Descargamos dentro de la carpeta DIR_MADRIGAL el siguiente archivo desde el link:
    
@@ -85,6 +92,13 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
     * Vincular el comando python(4.1 Referencia)
     * Modificar el archivo madrigal.cfg(4.2)
     * Modificar los archivos isrim.f,irifun.f,irisub.f del directorio /home/operaciones/DIR_MADRIGAL/MADROOT/source/madf/geolib y cedar.h del directorio /home/operaciones/DIR_MADRIGAL/MADROOT/source/madc/include(4.3).
+  
+   Nota: 
+   Se recomienda que la carpeta de instalacion de madrigal sea relativamente corta. Ejemplo:
+   * /home/soporte/DIR_MADRIGAL
+   Si la carpeta o ruta es muy gran puede generar errores en la instalacion. Se probo instalar dentro de la carpeta DIR_MADRIGAL que ya esta contenida dentro de la carpeta REPOSITORIO_MASTER_TEST, pero genero errores. Ejemplo:
+   */home/soporte/REPOSITORIO_MASTER_TEST/DIR_MADRIGAL
+
 
 ### 4.1. Referencia de python de MADROOT, para esto nos ubicamos en el siguiente directorio.
 
@@ -135,6 +149,16 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
     $nano cedar.h
     Modificamos la linea 11 , aqui escribimos nuestra ruta de directorio de instalacion:
     #define __MAD_ROOT__ "/home/operaciones/DIR_MADRIGAL/MADROOT"
+
+### 4.4 Durante el proceso de instalacion en caso ocurriera un error con un archivo python.
+
+    Si notamos un error al seguir el paso 5 en algun archivo. Se recomienda revisar el archivo.
+    Supongamos que tenemos un error con el archivo createCachedHdf5Files.py. Ubicamos la ruta del archivo y lo abrimos con los siguientes comandos:
+    $ nano /home/soporte/DIR_MADRIGAL/MADROOT/bin/createCachedHdf5Files.py
+
+    Aqui dentro de este archivo en la primera linea colocaremos:
+    #!/home/soporte/anaconda3/envs/test_master_apr8/bin/python
+    La ruta y archivo anterior es el python que estamos utilizando en nuestro entorno virtual con anaconda, luego de esto grabamos y volvemos a repetir el comando de instalacion descrito en el paso 5.
 
 5. Para instalar la libreria madrigal debemos activar el entorno virtual y ubicarse en el siguiente directorio:
 
