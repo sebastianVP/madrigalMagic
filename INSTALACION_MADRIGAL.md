@@ -187,6 +187,11 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
      $ pip install django-bootstrap3 \
      $ pip install aacgmv2==2.6.2 \
      $ python testRequirements.py 
+   Nota:
+   La instalacion puede realizarse sin problema con el python3.10 o una version mas actualizada indicando solo el nombre del paquete sin especificar su version. Ejemplo:
+    $ pip install netCDF4
+    $ pip install django\
+    $ pip install django-bootstrap3\
 
    # **ATENCION - PASO IMPORTANTE**
 
@@ -257,6 +262,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 
    $ cd /home/operaciones/DIR_MADRIGAL\
    $ git clone http://intranet.igp.gob.pe:8082/schain
+
    $ cd schain\
    $ git init\
    $ git status\
