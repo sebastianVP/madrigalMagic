@@ -65,7 +65,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 
    **Nota:** Se puede crear la carpeta con el nombre que se desea, solo respetar luego el orden de los directorios.
 
-   **Update:** Ya podemos utilizar una version mas moderna de python, se ha realizado una instalacion con **python 3.10.14** de manera exitosa
+   **Update:** Ya podemos utilizar una version mas moderna de python, se ha realizado una instalacion con **python 3.10.14** de manera exitosa.
    El entorno utilizado se genero el 08 de abril
    $ conda create --name test_master_apr8
 
