@@ -44,7 +44,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    * Instalar Signal Chain branch ISR o master(Ya se encuetra el repositorio actualizado).
 
    NOTA: Con las actualizaciones en el respositorio de **Signal Chain** ya podemos instalar MADRIGAL con  **la version master**. Este repositorio master ya contiene la integracion de ISR, Métodos del experimento de JULIA, Spectral Fitting e EWDriftsEstmation.
-   [LINK REPOSITORIO  SCHAIN](http://intranet.igp.gob.pe:8082/schain)
+   [LINK REPOSITORIO  SCHAIN](https://intranet.igp.gob.pe/jicamarca/rhodecode/schain)
 
 2. Definimos para este objetivo una carpeta de trabajo(Carpeta DIR_MADRIGAL)y un entorno de desarrollo desde anaconda.
 
@@ -251,7 +251,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
 
 
    $ cd /home/operaciones/DIR_MADRIGAL\
-   $ git clone http://intranet.igp.gob.pe:8082/schain
+   $ git clone https://intranet.igp.gob.pe/jicamarca/rhodecode/schain
 
    $ cd schain\
    $ git init\
@@ -266,7 +266,7 @@ Este link puede servir de tutorial solo en caso no se tengan los compiladores
    Aqui ya podemos instalar directamente la **version master**, los comandos serian los siguientes:
 
    $ cd /home/operaciones/DIR_MADRIGAL\
-   $ git clone http://intranet.igp.gob.pe:8082/schain
+   $ git clone https://intranet.igp.gob.pe/jicamarca/rhodecode/schain
 
    $ cd schain\
    $ git init\
